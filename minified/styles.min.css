@@ -1,0 +1,163 @@
+/*body{height:100vh;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center}*/
+
+
+body {
+	font-family: Montserrat, sans-serif;
+	margin: auto;
+	height: auto;
+}
+
+.header-hero-img {
+  position: relative;	
+  background-color: #000;
+  border-bottom: 60px solid #de041c;
+}
+
+.header-hero-img > img {
+	display: block;
+	width: 100vw;
+	opacity: 0.7;
+	background-color: transparent;	
+	z-index: 0;
+}
+
+.text-box {
+  position: absolute;
+  top: 50.5%;
+  left: 50.5%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+.heading-primary {
+	font-weight: 900;
+}
+
+.heading-primary-main {
+	margin-bottom: -37px;
+	font-size: 110px;
+	letter-spacing: -2px;
+	-webkit-text-stroke: 2px #de041c;
+	text-stroke: 2px #de041c;
+	color: #de041c;
+}
+
+.heading-primary-secondary {
+	margin-left: 2px;
+	margin-top: -10px;
+	margin-bottom: -4px;
+	font-size: 64.5px;
+	letter-spacing: -1px;
+	-webkit-text-stroke: 1px #fff;
+	text-stroke: 1px #fff;
+	color: #fff;
+}
+
+.heading-primary-slug {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: .2px;
+	color: #fff;
+}
+
+.collage-master {
+	display: flex;
+	z-index: 2;
+}
+
+.collage-container1 {
+	display: flex;
+	max-width: 30%;
+	align-items: flex-start;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	overflow: hidden;
+	margin-right: 9px;
+}
+
+.collage-container1 > img {
+	max-width: 100%;
+	margin: 9px 9px 0 0;
+}
+
+.collage-container2 {
+	display: flex;
+	flex-direction: column;
+	max-width: 40%;
+	margin-top: -208px;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.collage-container2 > iframe {
+	margin: 0;
+	border: 1px solid black;
+	box-shadow: 0 0 40px;
+	z-index: 1;
+}
+
+.collage-container2 > img {
+	margin: 9px 9px 0 0;
+}
+
+.txtblock-container {
+	display: flex;
+	max-width: 42%;
+	margin-left: -205px;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	background: linear-gradient( rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.94) ), url(../assets/SPLASH-WATERMARK.png);
+  background-size: 102%;
+  background-position: 0 -100px;
+  z-index: -1;
+}
+
+.txtblock-heading1 {
+	margin-top: 246px;
+	margin-bottom: -11px;
+	margin-left: -62px;
+	font-size: 26.8px;
+	height: 30px;
+	font-weight: 900;
+	-webkit-text-stroke: 1px #000;
+	text-stroke: 1px #000;
+	letter-spacing: .3px;
+}
+
+.txtblock-heading2 {
+	margin-left: -62px;
+	margin-bottom: 20px;
+	color: #de041c;	
+	font-size: 46px;
+	height: 50px;
+	font-weight: 900;	
+	-webkit-text-stroke: 1px #de041c;
+	text-stroke: 1px #de041c;
+	letter-spacing: -1px;
+}
+
+.txtblock-hr {
+	margin-left: -62px;
+	height: 5px;
+	background-color: #000;
+}
+
+.txtblock-main {
+	margin-left: -62px;
+	font-size: 11.3px;
+	font-weight: 600;
+	width: 87%;
+}
+
+.txtblock-main-red {
+	margin-left: -62px;
+	font-size: 12px;
+	font-weight: 900;
+	color: #de041c;
+	width: 87%;
+}
+
