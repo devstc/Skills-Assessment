@@ -15,4 +15,3 @@ Known Issues
   - In IE, the sizing/placement of the animated images isn't quite right.  Also, the largest of these images was overflowing its container, so I added `overflow: hidden` to the css to fix the issue, but now the animation for that image slides inside of the container rather than sliding in as a whole like it does in other browsers.
   - I don't own a Mac, so I'm unable to test in a current version of Safari.  I used the most recent Windows version I could find (2012), but the page doesn't work as desired.
   - I'm sure there are more elegant ways to create this layout.  I used more "margin hacking" and inline styles than I would have liked.
->>>>>>> 049d816bbf903ae1e0ea4d6b792ff1360f28d959
