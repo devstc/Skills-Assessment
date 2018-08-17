@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # JLB Skills Assessment - for Sean Cramer
 Copyright © 2018 JLB All rights reserved.
 
